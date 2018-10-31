@@ -28,16 +28,27 @@ This package supports discovering, connecting and controlling Yeelight Devices.
 ## Compatible Devices
 
 https://www.yeelight.com/en_US/product/wifi-led-c
+
 https://www.yeelight.com/en_US/product/luna-mc
+
 https://www.yeelight.com/en_US/product/luna
+
 https://www.yeelight.com/en_US/product/mijia-lamp
+
 https://www.yeelight.com/en_US/product/lemon-color
+
 https://www.yeelight.com/en_US/product/lemon-ct
+
 https://www.yeelight.com/en_US/product/pitaya-plus
+
 https://www.yeelight.com/en_US/product/eos
+
 https://www.yeelight.com/en_US/product/cherry1s
+
 https://www.mi.com/us/yeelight-led-light-bulb/
+
 https://www.mi.com/us/mi-bedside-lamp/
+
 
 ## Usage : 
 
