@@ -10,7 +10,7 @@ discoveryService.on('started', () => {
 })
 
 discoveryService.on('didDiscoverDevice', (device) => {
-  const device = new YeeDevice(device)
+  const newDevice = new YeeDevice(device)
 })
 
 discoveryService.listen()
