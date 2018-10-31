@@ -2,7 +2,7 @@
 
 const YeeDevice = require('..').Device
 
-const device = new YeeDevice({host: "192.168.0.190", port: 554433, debug: true})
+const device = new YeeDevice({host: "192.168.0.182", port: 55443, debug: true, interval: 5000})
 
 device.connect()
 
