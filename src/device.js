@@ -42,6 +42,7 @@ class YeeDevice extends EventEmitter {
     this.socket.destroy()
     this.socket = null
     this.emit('disconnected')
+    if (this.forceDisconnect && this.retry_timer) clearTimeout(this.retry_timer)
   }
 
   bindSocket() {
