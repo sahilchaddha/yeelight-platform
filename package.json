@@ -1,0 +1,49 @@
+{
+  "name": "yeelight-platform",
+  "version": "1.0.0",
+  "description": "Yeelight Platform",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint .",
+    "ci": "npm install && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilchaddha/yeelight-platform.git"
+  },
+  "keywords": [
+    "yeelight",
+    "xiaomi",
+    "Flux",
+    "wifi",
+    "zengge",
+    "led",
+    "strips",
+    "lighbulb",
+    "blub",
+    "preset",
+    "yeelight-bulb",
+    "scene",
+    "automation",
+    "fade",
+    "strobe",
+    "party",
+    "color-cycle"
+  ],
+  "author": "Sahil Chaddha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilchaddha/yeelight-platform/issues"
+  },
+  "homepage": "https://github.com/sahilchaddha/yeelight-platform#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.6"
+  }
+}
