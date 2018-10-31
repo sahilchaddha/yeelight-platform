@@ -54,7 +54,7 @@ https://www.mi.com/us/mi-bedside-lamp/
 
 ### Discover
 
-```
+```js
     const YeeDiscovery = require('yeelight-platform').Discovery
     const discoveryService = new YeeDiscovery()
 
@@ -87,7 +87,7 @@ https://www.mi.com/us/mi-bedside-lamp/
 
 ### Device
 
-```
+```js
     const YeeDevice = require('yeelight-platform').Device
 
     const device = new YeeDevice({host: "192.168.0.190", port: 554433})
