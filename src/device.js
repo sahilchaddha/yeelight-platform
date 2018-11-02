@@ -89,8 +89,12 @@ class YeeDevice extends EventEmitter {
   }
 
   didReceiveResponse(data) {
-    const response = JSON.parse(data.toString('utf8'))
-    this.emit('deviceUpdate', response)
+    try {
+      const response = JSON.parse(data.toString('utf8'))
+      this.emit('deviceUpdate', response)
+    } catch (err) {
+      this.log(err, data)
+    }
   }
 
   sendCommand(data) {
