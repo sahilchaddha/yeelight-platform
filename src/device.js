@@ -93,7 +93,7 @@ class YeeDevice extends EventEmitter {
       const response = JSON.parse(data.toString('utf8'))
       this.emit('deviceUpdate', response)
     } catch (err) {
-      this.log(err, data)
+      console.log(err, data)
     }
   }
 
