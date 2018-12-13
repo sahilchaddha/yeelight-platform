@@ -71,12 +71,17 @@ class YeeDevice extends EventEmitter {
     this.disconnect(false)
     if (this.retry_timer) {
       clearTimeout(this.retry_timer)
+      this.retry_timer = null
     }
     this.retry_timer = setTimeout(this.connect.bind(this), 5000)
   }
 
   didConnect() {
     this.connected = true
+    if (this.timer) {
+      clearInterval(this.timer)
+      this.timer = null
+    }
     this.timer = setInterval(this.sendHeartBeat.bind(this), this.polligInterval)
   }
 
