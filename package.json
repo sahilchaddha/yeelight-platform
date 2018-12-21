@@ -1,6 +1,6 @@
 {
   "name": "yeelight-platform",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Yeelight Platform",
   "main": "index.js",
   "preferGlobal": true,
