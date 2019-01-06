@@ -14,7 +14,7 @@ device.on('connected', () => {
     device.sendCommand({
         id: -1,
         method: 'set_power',
-        params: [true, 'smooth', '300']
+        params: ["on", 'smooth', 300]
     })
 })    
 // device.disconnect()

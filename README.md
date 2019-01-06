@@ -77,7 +77,7 @@ This package supports discovering, connecting and controlling Yeelight Devices.
         device.sendCommand({
             id: -1,
             method: 'set_power',
-            params: [true, 'smooth', '300']
+            params: ["on", 'smooth', 300]
         })
     })    
 
